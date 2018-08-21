@@ -10,7 +10,12 @@ class Login extends Component {
 
           <div class="col-md-4">
             <section class="login-form">
-              <form method="post" action="#" role="login">
+              <form
+                class="form-container"
+                method="post"
+                action="#"
+                role="login"
+              >
                 <img src="" class="img-responsive" alt="" />
                 <input
                   type="email"
@@ -18,7 +23,6 @@ class Login extends Component {
                   placeholder="Email"
                   required
                   class="form-control input-lg"
-                  value="joestudent@gmail.com"
                 />
 
                 <input
@@ -34,14 +38,10 @@ class Login extends Component {
                 <button
                   type="submit"
                   name="go"
-                  class="btn btn-lg btn-primary btn-block"
+                  class="btn btn-lg btn-info btn-block"
                 >
-                  Sign in
+                  Meow in
                 </button>
-                <div>
-                  <a href="#">Create account</a> or{" "}
-                  <a href="#">reset password</a>
-                </div>
               </form>
 
               <div class="form-links" />
