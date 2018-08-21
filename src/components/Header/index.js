@@ -6,11 +6,16 @@ class Header extends Component {
     return (
       <div className="row">
         <div className="col-12">
-          <div class="p-3 mb-2 bg-info text-white App-header">
+          <div className="p-3 mb-2 bg-info text-white App-header">
             <div className="row">
               <h2 className="col-10">MEOWGRAM</h2>
               <div className="col-2">
-                <button className="col-12 btn btn-dark ">Meow IN</button>
+                <button
+                  onClick={this.props.handlOpenModal}
+                  className="col-12 btn btn-dark"
+                >
+                  Meow IN
+                </button>
               </div>
             </div>
           </div>

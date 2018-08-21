@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div className="container">
         <div className="row w-300 mx-auto">
-          <PostCard text="Text" title="Day 1" img={image} />
+          <PostCard text="2554 likes" title="JD || 20 AUG" img={image} />
           <PostCard text="Text" title="Day 2" img={image} />
           <PostCard text="Text" title="Day 3" img={image} />
         </div>
