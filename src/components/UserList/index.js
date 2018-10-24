@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import UserCard from "../UserCard";
-import image from "../../media/tesla-cat.jpg";
 import image0 from "../../media/ginger.jpg";
 import image1 from "../../media/grey.jpg";
 import image2 from "../../media/white.jpg";

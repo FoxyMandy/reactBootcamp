@@ -10,12 +10,7 @@ class Login extends Component {
 
           <div class="col-md-4">
             <section class="login-form">
-              <form
-                class="form-container"
-                method="post"
-                action="#"
-                role="login"
-              >
+              <form class="form-container" method="post" action="#">
                 <img src="" class="img-responsive" alt="" />
                 <input
                   type="email"
